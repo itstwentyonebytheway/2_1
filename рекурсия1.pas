@@ -1,6 +1,6 @@
 procedure row(n:integer);
 begin
-     if n >=1 then begin //база
+     if n >=1 then begin //база - n >= 1
         write (n, ' ');
         row(n-2) //декомпозиция
      end;
