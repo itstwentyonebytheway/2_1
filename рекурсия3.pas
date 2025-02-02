@@ -18,6 +18,6 @@ begin
   readln(x);
   writeln('введите степень:');
   readln(y);
-  // Параметризация
+  // параметризация
   writeln('результат: ', stepen(x, y));
 end.
